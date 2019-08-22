@@ -1,431 +1,862 @@
 {   
     "manifiestoId" : "MX123",
-    "GuiaDeEmbarque1": {
-        "Shipper": {
-            "Name": "MSC",
-            "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
-            "AcountNo": "123456",
-            "PhoneNo": "(52)-55-5243-1523"
-        },
-        "Consignee": {
-            "Name": "Yusen",
-            "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
-            "AcountNo": "12345678",
-            "PhoneNo": "(52)-55-5025-3652",
-            "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
-        },
-        "Comment": "General",
-        "FlyGuideId": "MX00001",
-        "OriginAirport": "EZE",
-        "DestinationAirport": "MEX",
-        "IATACode": "12345678",
-        "DeclaredValue": {
-            "Value": 192832.45,
-            "Currency": "US$"
-        },
-        "CustomsValue": {
-            "Value": 45000,
-            "Currency": "US$"
-        },
-        "Contrato": 452812,
-        "estado" : {
-          "confronta1":{
-            "fechaInicio": "31/08/1995", 
-            "fechaFinalizacion": "32/08/1995",
-            "lugar": "Emiratos Air port"  
-          },
-          "confronta2":{
-            "estado": "completado/incompleto",
-            "fechaInicio": "31/08/1995", 
-            "fechaFinalizacion": "32/08/1995", 
-            "lugar": "Emiratos Air port"  
-          },
-          "previa":{
-            "estado": "completado/incompleto",
-            "fechaInicio": "31/08/1995", 
-            "fechaFinalizacion": "32/08/1995", 
-            "lugar": "Emiratos Air port"  
-          }  
-        },
-        
-        "Items": {
-            "Aguacates": {
-                "Quantity": 5,
-                "GrossWeight": {
-                    "Value": 32,
-                    "Units": "Kg"
-                },
-                "RateClass": "Q",
-                "CommodityItemNo": "??",
-                "ChargableWeight": {
-                    "Value": 33,
-                    "Units": "Kg"
-                },
-                "Description": "Aguacates de exportacion AAA",
-                "UnitPrice": {
-                    "Value": 6,
-                    "Units": "Kg"
-                },
-                "OtherCharges": {
-                    "Boxes repair at customs": {
+    "GuiasDeEmbarque":{
+        "GuiaDeEmbarque1": {
+            "Shipper": {
+                "Name": "MSC",
+                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
+                "AcountNo": "123456",
+                "PhoneNo": "(52)-55-5243-1523"
+            },
+            "Consignee": {
+                "Name": "Yusen",
+                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
+                "AcountNo": "12345678",
+                "PhoneNo": "(52)-55-5025-3652",
+                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
+            },
+            "Comment": "General",
+            "FlyGuideId": "MX00001",
+            "OriginAirport": "EZE",
+            "DestinationAirport": "MEX",
+            "IATACode": "12345678",
+            "DeclaredValue": {
+                "Value": 192832.45,
+                "Currency": "US$"
+            },
+            "CustomsValue": {
+                "Value": 45000,
+                "Currency": "US$"
+            },
+            "Contrato": 452812,
+            "estado" : {
+              "confronta1":{
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995",
+                "lugar": "Emiratos Air port"  
+              },
+              "confronta2":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              },
+              "previa":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              }  
+            },
+
+            "Items": {
+                "Aguacates": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
                         "Value": 6,
-                        "Units": "US$"
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":{
+                      "confronta":{
+                        "dañada": 3,
+                        "faltante": 1 
+                      },
+                      "confronta2":{
+                        "dañada": 4,
+                        "faltante": 1,
+                        "estante": "h",
+                        "pasillo": 4
+                      },
+                      "previa":{
+                        "dañada": 4,
+                        "faltante": 1
+                      }
                     }
+
                 },
-                "HandlingInfo": "Keep fresh and away from sunlight",
-                "revisiones":{
-                  "confronta":{
-                    "dañada": 3,
-                    "faltante": 1 
-                  },
-                  "confronta2":{
-                    "dañada": 4,
-                    "faltante": 1,
-                    "estante": "h",
-                    "pasillo": 4
-                  },
-                  "previa":{
-                    "dañada": 4,
-                    "faltante": 1
-                  }
+                "IphoneXS": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
+                },
+                "Naranjas": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
                 }
-                
-            },
-            "IphoneXS": {
-                "Quantity": 5,
-                "GrossWeight": {
-                    "Value": 32,
-                    "Units": "Kg"
-                },
-                "RateClass": "Q",
-                "CommodityItemNo": "??",
-                "ChargableWeight": {
-                    "Value": 33,
-                    "Units": "Kg"
-                },
-                "Description": "Aguacates de exportacion AAA",
-                "UnitPrice": {
-                    "Value": 6,
-                    "Units": "Kg"
-                },
-                "OtherCharges": {
-                    "Boxes repair at customs": {
-                        "Value": 6,
-                        "Units": "US$"
-                    }
-                },
-                "HandlingInfo": "Keep fresh and away from sunlight"
-            },
-            "Naranjas": {
-                "Quantity": 5,
-                "GrossWeight": {
-                    "Value": 32,
-                    "Units": "Kg"
-                },
-                "RateClass": "Q",
-                "CommodityItemNo": "??",
-                "ChargableWeight": {
-                    "Value": 33,
-                    "Units": "Kg"
-                },
-                "Description": "Aguacates de exportacion AAA",
-                "UnitPrice": {
-                    "Value": 6,
-                    "Units": "Kg"
-                },
-                "OtherCharges": {
-                    "Boxes repair at customs": {
-                        "Value": 6,
-                        "Units": "US$"
-                    }
-                },
-                "HandlingInfo": "Keep fresh and away from sunlight"
             }
-        }
-    },
-    "GuiaDeEmbarque2": {
-        "Shipper": {
-            "Name": "MSC",
-            "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
-            "AcountNo": "123456",
-            "PhoneNo": "(52)-55-5243-1523"
         },
-        "Consignee": {
-            "Name": "Yusen",
-            "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
-            "AcountNo": "12345678",
-            "PhoneNo": "(52)-55-5025-3652",
-            "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
-        },
-        "Comment": "General",
-        "FlyGuideId": "MX00001",
-        "OriginAirport": "EZE",
-        "DestinationAirport": "MEX",
-        "IATACode": "12345678",
-        "DeclaredValue": {
-            "Value": 192832.45,
-            "Currency": "US$"
-        },
-        "CustomsValue": {
-            "Value": 45000,
-            "Currency": "US$"
-        },
-        "Contrato": 452812,
-        "estado" : {
-          "confronta1":{
-            "fechaInicio": "31/08/1995", 
-            "fechaFinalizacion": "32/08/1995",
-            "lugar": "Emiratos Air port"  
-          },
-          "confronta2":{
-            "estado": "completado/incompleto",
-            "fechaInicio": "31/08/1995", 
-            "fechaFinalizacion": "32/08/1995", 
-            "lugar": "Emiratos Air port"  
-          },
-          "previa":{
-            "estado": "completado/incompleto",
-            "fechaInicio": "31/08/1995", 
-            "fechaFinalizacion": "32/08/1995", 
-            "lugar": "Emiratos Air port"  
-          }  
-        },
-        
-        "Items": {
-            "Aguacates": {
-                "Quantity": 5,
-                "GrossWeight": {
-                    "Value": 32,
-                    "Units": "Kg"
-                },
-                "RateClass": "Q",
-                "CommodityItemNo": "??",
-                "ChargableWeight": {
-                    "Value": 33,
-                    "Units": "Kg"
-                },
-                "Description": "Aguacates de exportacion AAA",
-                "UnitPrice": {
-                    "Value": 6,
-                    "Units": "Kg"
-                },
-                "OtherCharges": {
-                    "Boxes repair at customs": {
+        "GuiaDeEmbarque2": {
+            "Shipper": {
+                "Name": "MSC",
+                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
+                "AcountNo": "123456",
+                "PhoneNo": "(52)-55-5243-1523"
+            },
+            "Consignee": {
+                "Name": "Yusen",
+                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
+                "AcountNo": "12345678",
+                "PhoneNo": "(52)-55-5025-3652",
+                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
+            },
+            "Comment": "General",
+            "FlyGuideId": "MX00001",
+            "OriginAirport": "EZE",
+            "DestinationAirport": "MEX",
+            "IATACode": "12345678",
+            "DeclaredValue": {
+                "Value": 192832.45,
+                "Currency": "US$"
+            },
+            "CustomsValue": {
+                "Value": 45000,
+                "Currency": "US$"
+            },
+            "Contrato": 452812,
+            "estado" : {
+              "confronta1":{
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995",
+                "lugar": "Emiratos Air port"  
+              },
+              "confronta2":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              },
+              "previa":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              }  
+            },
+
+            "Items": {
+                "Aguacates": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
                         "Value": 6,
-                        "Units": "US$"
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":{
+                      "confronta":{
+                        "dañada": 3,
+                        "faltante": 1 
+                      },
+                      "confronta2":{
+                        "dañada": 4,
+                        "faltante": 1,
+                        "estante": "h",
+                        "pasillo": "4"
+                      },
+                      "previa":{
+                        "dañada": 4,
+                        "faltante": 1
+                      }
                     }
+
                 },
-                "HandlingInfo": "Keep fresh and away from sunlight",
-                "revisiones":{
-                  "confronta":{
-                    "dañada": 3,
-                    "faltante": 1 
-                  },
-                  "confronta2":{
-                    "dañada": 4,
-                    "faltante": 1,
-                    "estante": "h",
-                    "pasillo": "4"
-                  },
-                  "previa":{
-                    "dañada": 4,
-                    "faltante": 1
-                  }
+                "IphoneXS": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
+                },
+                "Naranjas": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
                 }
-                
-            },
-            "IphoneXS": {
-                "Quantity": 5,
-                "GrossWeight": {
-                    "Value": 32,
-                    "Units": "Kg"
-                },
-                "RateClass": "Q",
-                "CommodityItemNo": "??",
-                "ChargableWeight": {
-                    "Value": 33,
-                    "Units": "Kg"
-                },
-                "Description": "Aguacates de exportacion AAA",
-                "UnitPrice": {
-                    "Value": 6,
-                    "Units": "Kg"
-                },
-                "OtherCharges": {
-                    "Boxes repair at customs": {
-                        "Value": 6,
-                        "Units": "US$"
-                    }
-                },
-                "HandlingInfo": "Keep fresh and away from sunlight"
-            },
-            "Naranjas": {
-                "Quantity": 5,
-                "GrossWeight": {
-                    "Value": 32,
-                    "Units": "Kg"
-                },
-                "RateClass": "Q",
-                "CommodityItemNo": "??",
-                "ChargableWeight": {
-                    "Value": 33,
-                    "Units": "Kg"
-                },
-                "Description": "Aguacates de exportacion AAA",
-                "UnitPrice": {
-                    "Value": 6,
-                    "Units": "Kg"
-                },
-                "OtherCharges": {
-                    "Boxes repair at customs": {
-                        "Value": 6,
-                        "Units": "US$"
-                    }
-                },
-                "HandlingInfo": "Keep fresh and away from sunlight"
             }
-        }
-    },
-    "GuiaDeEmbarque3": {
-        "Shipper": {
-            "Name": "MSC",
-            "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
-            "AcountNo": "123456",
-            "PhoneNo": "(52)-55-5243-1523"
         },
-        "Consignee": {
-            "Name": "Yusen",
-            "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
-            "AcountNo": "12345678",
-            "PhoneNo": "(52)-55-5025-3652",
-            "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
-        },
-        "Comment": "General",
-        "FlyGuideId": "MX00001",
-        "OriginAirport": "EZE",
-        "DestinationAirport": "MEX",
-        "IATACode": "12345678",
-        "DeclaredValue": {
-            "Value": 192832.45,
-            "Currency": "US$"
-        },
-        "CustomsValue": {
-            "Value": 45000,
-            "Currency": "US$"
-        },
-        "Contrato": 452812,
-        "estado" : {
-          "confronta1":{
-            "fechaInicio": "31/08/1995", 
-            "fechaFinalizacion": "32/08/1995",
-            "lugar": "Emiratos Air port"  
-          },
-          "confronta2":{
-            "estado": "completado/incompleto",
-            "fechaInicio": "31/08/1995", 
-            "fechaFinalizacion": "32/08/1995", 
-            "lugar": "Emiratos Air port"  
-          },
-          "previa":{
-            "estado": "completado/incompleto",
-            "fechaInicio": "31/08/1995", 
-            "fechaFinalizacion": "32/08/1995", 
-            "lugar": "Emiratos Air port"  
-          }  
-        },
-        
-        "Items": {
-            "Aguacates": {
-                "Quantity": 5,
-                "GrossWeight": {
-                    "Value": 32,
-                    "Units": "Kg"
-                },
-                "RateClass": "Q",
-                "CommodityItemNo": "??",
-                "ChargableWeight": {
-                    "Value": 33,
-                    "Units": "Kg"
-                },
-                "Description": "Aguacates de exportacion AAA",
-                "UnitPrice": {
-                    "Value": 6,
-                    "Units": "Kg"
-                },
-                "OtherCharges": {
-                    "Boxes repair at customs": {
+        "GuiaDeEmbarque3": {
+            "Shipper": {
+                "Name": "MSC",
+                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
+                "AcountNo": "123456",
+                "PhoneNo": "(52)-55-5243-1523"
+            },
+            "Consignee": {
+                "Name": "Yusen",
+                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
+                "AcountNo": "12345678",
+                "PhoneNo": "(52)-55-5025-3652",
+                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
+            },
+            "Comment": "General",
+            "FlyGuideId": "MX00001",
+            "OriginAirport": "EZE",
+            "DestinationAirport": "MEX",
+            "IATACode": "12345678",
+            "DeclaredValue": {
+                "Value": 192832.45,
+                "Currency": "US$"
+            },
+            "CustomsValue": {
+                "Value": 45000,
+                "Currency": "US$"
+            },
+            "Contrato": 452812,
+            "estado" : {
+              "confronta1":{
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995",
+                "lugar": "Emiratos Air port"  
+              },
+              "confronta2":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              },
+              "previa":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              }  
+            },
+
+            "Items": {
+                "Aguacates": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
                         "Value": 6,
-                        "Units": "US$"
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":{
+                      "confronta":{
+                        "dañada": 3,
+                        "faltante": 1 
+                      },
+                      "confronta2":{
+                        "dañada": 4,
+                        "faltante": 1,
+                        "estante": "h",
+                        "pasillo": "4"
+                      },
+                      "previa":{
+                        "dañada": 4,
+                        "faltante": 1
+                      }
                     }
+
                 },
-                "HandlingInfo": "Keep fresh and away from sunlight",
-                "revisiones":{
-                  "confronta":{
-                    "dañada": 3,
-                    "faltante": 1 
-                  },
-                  "confronta2":{
-                    "dañada": 4,
-                    "faltante": 1,
-                    "estante": "h",
-                    "pasillo": "4"
-                  },
-                  "previa":{
-                    "dañada": 4,
-                    "faltante": 1
-                  }
+                "IphoneXS": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
+                },
+                "Naranjas": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
                 }
-                
+            }
+        },
+        "GuiaDeEmbarque2": {
+            "Shipper": {
+                "Name": "MSC",
+                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
+                "AcountNo": "123456",
+                "PhoneNo": "(52)-55-5243-1523"
             },
-            "IphoneXS": {
-                "Quantity": 5,
-                "GrossWeight": {
-                    "Value": 32,
-                    "Units": "Kg"
-                },
-                "RateClass": "Q",
-                "CommodityItemNo": "??",
-                "ChargableWeight": {
-                    "Value": 33,
-                    "Units": "Kg"
-                },
-                "Description": "Aguacates de exportacion AAA",
-                "UnitPrice": {
-                    "Value": 6,
-                    "Units": "Kg"
-                },
-                "OtherCharges": {
-                    "Boxes repair at customs": {
-                        "Value": 6,
-                        "Units": "US$"
-                    }
-                },
-                "HandlingInfo": "Keep fresh and away from sunlight"
+            "Consignee": {
+                "Name": "Yusen",
+                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
+                "AcountNo": "12345678",
+                "PhoneNo": "(52)-55-5025-3652",
+                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
             },
-            "Naranjas": {
-                "Quantity": 5,
-                "GrossWeight": {
-                    "Value": 32,
-                    "Units": "Kg"
-                },
-                "RateClass": "Q",
-                "CommodityItemNo": "??",
-                "ChargableWeight": {
-                    "Value": 33,
-                    "Units": "Kg"
-                },
-                "Description": "Aguacates de exportacion AAA",
-                "UnitPrice": {
-                    "Value": 6,
-                    "Units": "Kg"
-                },
-                "OtherCharges": {
-                    "Boxes repair at customs": {
+            "Comment": "General",
+            "FlyGuideId": "MX00001",
+            "OriginAirport": "EZE",
+            "DestinationAirport": "MEX",
+            "IATACode": "12345678",
+            "DeclaredValue": {
+                "Value": 192832.45,
+                "Currency": "US$"
+            },
+            "CustomsValue": {
+                "Value": 45000,
+                "Currency": "US$"
+            },
+            "Contrato": 452812,
+            "estado" : {
+              "confronta1":{
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995",
+                "lugar": "Emiratos Air port"  
+              },
+              "confronta2":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              },
+              "previa":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              }  
+            },
+
+            "Items": {
+                "Aguacates": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
                         "Value": 6,
-                        "Units": "US$"
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":{
+                      "confronta":{
+                        "dañada": 3,
+                        "faltante": 1 
+                      },
+                      "confronta2":{
+                        "dañada": 4,
+                        "faltante": 1,
+                        "estante": "h",
+                        "pasillo": 4
+                      },
+                      "previa":{
+                        "dañada": 4,
+                        "faltante": 1
+                      }
                     }
+
                 },
-                "HandlingInfo": "Keep fresh and away from sunlight"
+                "IphoneXS": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
+                },
+                "Naranjas": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
+                }
+            }
+        },
+        "GuiaDeEmbarque2": {
+            "Shipper": {
+                "Name": "MSC",
+                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
+                "AcountNo": "123456",
+                "PhoneNo": "(52)-55-5243-1523"
+            },
+            "Consignee": {
+                "Name": "Yusen",
+                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
+                "AcountNo": "12345678",
+                "PhoneNo": "(52)-55-5025-3652",
+                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
+            },
+            "Comment": "General",
+            "FlyGuideId": "MX00001",
+            "OriginAirport": "EZE",
+            "DestinationAirport": "MEX",
+            "IATACode": "12345678",
+            "DeclaredValue": {
+                "Value": 192832.45,
+                "Currency": "US$"
+            },
+            "CustomsValue": {
+                "Value": 45000,
+                "Currency": "US$"
+            },
+            "Contrato": 452812,
+            "estado" : {
+              "confronta1":{
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995",
+                "lugar": "Emiratos Air port"  
+              },
+              "confronta2":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              },
+              "previa":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              }  
+            },
+
+            "Items": {
+                "Aguacates": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":{
+                      "confronta":{
+                        "dañada": 3,
+                        "faltante": 1 
+                      },
+                      "confronta2":{
+                        "dañada": 4,
+                        "faltante": 1,
+                        "estante": "h",
+                        "pasillo": "4"
+                      },
+                      "previa":{
+                        "dañada": 4,
+                        "faltante": 1
+                      }
+                    }
+
+                },
+                "IphoneXS": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
+                },
+                "Naranjas": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
+                }
+            }
+        },
+        "GuiaDeEmbarque3": {
+            "Shipper": {
+                "Name": "MSC",
+                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
+                "AcountNo": "123456",
+                "PhoneNo": "(52)-55-5243-1523"
+            },
+            "Consignee": {
+                "Name": "Yusen",
+                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
+                "AcountNo": "12345678",
+                "PhoneNo": "(52)-55-5025-3652",
+                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
+            },
+            "Comment": "General",
+            "FlyGuideId": "MX00001",
+            "OriginAirport": "EZE",
+            "DestinationAirport": "MEX",
+            "IATACode": "12345678",
+            "DeclaredValue": {
+                "Value": 192832.45,
+                "Currency": "US$"
+            },
+            "CustomsValue": {
+                "Value": 45000,
+                "Currency": "US$"
+            },
+            "Contrato": 452812,
+            "estado" : {
+              "confronta1":{
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995",
+                "lugar": "Emiratos Air port"  
+              },
+              "confronta2":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              },
+              "previa":{
+                "estado": "completado/incompleto",
+                "fechaInicio": "31/08/1995", 
+                "fechaFinalizacion": "32/08/1995", 
+                "lugar": "Emiratos Air port"  
+              }  
+            },
+
+            "Items": {
+                "Aguacates": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":{
+                      "confronta":{
+                        "dañada": 3,
+                        "faltante": 1 
+                      },
+                      "confronta2":{
+                        "dañada": 4,
+                        "faltante": 1,
+                        "estante": "h",
+                        "pasillo": "4"
+                      },
+                      "previa":{
+                        "dañada": 4,
+                        "faltante": 1
+                      }
+                    }
+
+                },
+                "IphoneXS": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
+                },
+                "Naranjas": {
+                    "Quantity": 5,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight"
+                }
             }
         }
     }
