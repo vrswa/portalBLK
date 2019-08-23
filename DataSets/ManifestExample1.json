@@ -49,8 +49,9 @@
               }  
             },
 
-            "Items": {
-                "Aguacates": {
+            "Items": [
+                {
+                    "itemName": "Aguacates",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -92,7 +93,8 @@
                     }
 
                 },
-                "IphoneXS": {
+                {   
+                    "itemName": "IphoneXS",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -117,7 +119,8 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 },
-                "Naranjas": {
+                {
+                    "itemName": "Naranjas",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -142,7 +145,7 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 }
-            }
+            ]
         },
         "GuiaDeEmbarque2": {
             "Shipper": {
@@ -192,8 +195,9 @@
               }  
             },
 
-            "Items": {
-                "Aguacates": {
+            "Items": [
+                {
+                    "itemName": "Aguacates",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -226,7 +230,7 @@
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
-                        "pasillo": "4"
+                        "pasillo": 4
                       },
                       "previa":{
                         "dañada": 4,
@@ -235,7 +239,8 @@
                     }
 
                 },
-                "IphoneXS": {
+                {   
+                    "itemName": "IphoneXS",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -260,7 +265,8 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 },
-                "Naranjas": {
+                {
+                    "itemName": "Naranjas",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -285,7 +291,7 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 }
-            }
+            ]
         },
         "GuiaDeEmbarque3": {
             "Shipper": {
@@ -335,8 +341,9 @@
               }  
             },
 
-            "Items": {
-                "Aguacates": {
+            "Items": [
+                {
+                    "itemName": "Aguacates",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -369,7 +376,7 @@
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
-                        "pasillo": "4"
+                        "pasillo": 4
                       },
                       "previa":{
                         "dañada": 4,
@@ -378,7 +385,8 @@
                     }
 
                 },
-                "IphoneXS": {
+                {   
+                    "itemName": "IphoneXS",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -403,7 +411,8 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 },
-                "Naranjas": {
+                {
+                    "itemName": "Naranjas",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -428,7 +437,7 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 }
-            }
+            ]
         },
         "GuiaDeEmbarque4": {
             "Shipper": {
@@ -478,8 +487,9 @@
               }  
             },
 
-            "Items": {
-                "Aguacates": {
+            "Items": [
+                {
+                    "itemName": "Aguacates",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -521,7 +531,8 @@
                     }
 
                 },
-                "IphoneXS": {
+                {   
+                    "itemName": "IphoneXS",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -546,7 +557,8 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 },
-                "Naranjas": {
+                {
+                    "itemName": "Naranjas",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -571,7 +583,7 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 }
-            }
+            ]
         },
         "GuiaDeEmbarque5": {
             "Shipper": {
@@ -621,8 +633,9 @@
               }  
             },
 
-            "Items": {
-                "Aguacates": {
+            "Items": [
+                {
+                    "itemName": "Aguacates",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -655,7 +668,7 @@
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
-                        "pasillo": "4"
+                        "pasillo": 4
                       },
                       "previa":{
                         "dañada": 4,
@@ -664,7 +677,8 @@
                     }
 
                 },
-                "IphoneXS": {
+                {   
+                    "itemName": "IphoneXS",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -689,7 +703,8 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 },
-                "Naranjas": {
+                {
+                    "itemName": "Naranjas",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -714,7 +729,7 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 }
-            }
+            ]
         },
         "GuiaDeEmbarque6": {
             "Shipper": {
@@ -764,8 +779,9 @@
               }  
             },
 
-            "Items": {
-                "Aguacates": {
+            "Items": [
+                {
+                    "itemName": "Aguacates",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -798,7 +814,7 @@
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
-                        "pasillo": "4"
+                        "pasillo": 4
                       },
                       "previa":{
                         "dañada": 4,
@@ -807,7 +823,8 @@
                     }
 
                 },
-                "IphoneXS": {
+                {   
+                    "itemName": "IphoneXS",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -832,7 +849,8 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 },
-                "Naranjas": {
+                {
+                    "itemName": "Naranjas",
                     "Quantity": 5,
                     "GrossWeight": {
                         "Value": 32,
@@ -857,7 +875,7 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight"
                 }
-            }
+            ]
         }
     }
 }
