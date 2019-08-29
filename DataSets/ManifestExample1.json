@@ -1,7 +1,8 @@
 {   
     "manifiestoId" : "MX123",
-    "GuiasDeEmbarque":{
-        "GuiaDeEmbarque1": {
+    "GuiasDeEmbarque":[
+        {
+            "nombre" : "GuiaDeEmbarque1",
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -150,7 +151,8 @@
                 }
             ]
         },
-        "GuiaDeEmbarque2": {
+        {
+            "nombre" : "GuiaDeEmbarque2",
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -299,7 +301,8 @@
                 }
             ]
         },
-        "GuiaDeEmbarque3": {
+        {
+            "nombre":"GuiaDeEmbarque3",
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -448,7 +451,8 @@
                 }
             ]
         },
-        "GuiaDeEmbarque4": {
+        {
+            "nombre": "GuiaDeEmbarque4", 
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -597,5 +601,5 @@
                 }
             ]
         }
-    }
+    ]
 }
