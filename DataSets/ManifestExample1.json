@@ -79,22 +79,25 @@
                         }
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":{
-                      "confronta":{
+                    "revisiones":[
+                      {
+                        "nombre": "confronta",
                         "dañada": 3,
                         "faltante": 1 
                       },
-                      "confronta2":{
+                      {
+                        "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
                         "pasillo": 4
                       },
-                      "previa":{
+                      {
+                        "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1
                       }
-                    }
+                    ]
 
                 },
                 {   
@@ -121,7 +124,26 @@
                             "Units": "US$"
                         }
                     },
-                    "HandlingInfo": "Keep fresh and away from sunlight"
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {
+                          "nombre": "confronta",
+                          "dañada": 3,
+                          "faltante": 1 
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1,
+                          "estante": "h",
+                          "pasillo": 4
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1
+                        }
+                    ]
                 },
                 {
                     "itemName": "Naranjas",
@@ -147,12 +169,31 @@
                             "Units": "US$"
                         }
                     },
-                    "HandlingInfo": "Keep fresh and away from sunlight"
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {
+                          "nombre": "confronta",
+                          "dañada": 3,
+                          "faltante": 1 
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1,
+                          "estante": "h",
+                          "pasillo": 4
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1
+                        }
+                    ]
                 }
             ]
         },
         {
-            "nombre" : "GuiaDeEmbarque2",
+            "nombre" : "GuiaDeEmbarque1",
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -185,7 +226,7 @@
                 "nombre": "confronta1",
                 "fechaInicio": "31/08/1995", 
                 "fechaFinalizacion": "32/08/1995",
-                "lugar": "EZ Airport"  
+                "lugar": "MX airport"  
               },
               {
                 "nombre": "confronta2",
@@ -229,22 +270,25 @@
                         }
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":{
-                      "confronta":{
+                    "revisiones":[
+                      {
+                        "nombre": "confronta",
                         "dañada": 3,
                         "faltante": 1 
                       },
-                      "confronta2":{
+                      {
+                        "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
                         "pasillo": 4
                       },
-                      "previa":{
+                      {
+                        "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1
                       }
-                    }
+                    ]
 
                 },
                 {   
@@ -271,7 +315,26 @@
                             "Units": "US$"
                         }
                     },
-                    "HandlingInfo": "Keep fresh and away from sunlight"
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {
+                          "nombre": "confronta",
+                          "dañada": 3,
+                          "faltante": 1 
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1,
+                          "estante": "h",
+                          "pasillo": 4
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1
+                        }
+                    ]
                 },
                 {
                     "itemName": "Naranjas",
@@ -297,12 +360,31 @@
                             "Units": "US$"
                         }
                     },
-                    "HandlingInfo": "Keep fresh and away from sunlight"
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {
+                          "nombre": "confronta",
+                          "dañada": 3,
+                          "faltante": 1 
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1,
+                          "estante": "h",
+                          "pasillo": 4
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1
+                        }
+                    ]
                 }
             ]
         },
         {
-            "nombre":"GuiaDeEmbarque3",
+            "nombre" : "GuiaDeEmbarque1",
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -335,7 +417,7 @@
                 "nombre": "confronta1",
                 "fechaInicio": "31/08/1995", 
                 "fechaFinalizacion": "32/08/1995",
-                "lugar": "China Airway"  
+                "lugar": "MX airport"  
               },
               {
                 "nombre": "confronta2",
@@ -379,22 +461,25 @@
                         }
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":{
-                      "confronta":{
+                    "revisiones":[
+                      {
+                        "nombre": "confronta",
                         "dañada": 3,
                         "faltante": 1 
                       },
-                      "confronta2":{
+                      {
+                        "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
                         "pasillo": 4
                       },
-                      "previa":{
+                      {
+                        "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1
                       }
-                    }
+                    ]
 
                 },
                 {   
@@ -421,7 +506,26 @@
                             "Units": "US$"
                         }
                     },
-                    "HandlingInfo": "Keep fresh and away from sunlight"
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {
+                          "nombre": "confronta",
+                          "dañada": 3,
+                          "faltante": 1 
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1,
+                          "estante": "h",
+                          "pasillo": 4
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1
+                        }
+                    ]
                 },
                 {
                     "itemName": "Naranjas",
@@ -447,12 +551,31 @@
                             "Units": "US$"
                         }
                     },
-                    "HandlingInfo": "Keep fresh and away from sunlight"
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {
+                          "nombre": "confronta",
+                          "dañada": 3,
+                          "faltante": 1 
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1,
+                          "estante": "h",
+                          "pasillo": 4
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1
+                        }
+                    ]
                 }
             ]
         },
         {
-            "nombre": "GuiaDeEmbarque4", 
+            "nombre" : "GuiaDeEmbarque1",
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -485,7 +608,7 @@
                 "nombre": "confronta1",
                 "fechaInicio": "31/08/1995", 
                 "fechaFinalizacion": "32/08/1995",
-                "lugar": "Emiratos Air port"  
+                "lugar": "MX airport"  
               },
               {
                 "nombre": "confronta2",
@@ -529,22 +652,25 @@
                         }
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":{
-                      "confronta":{
+                    "revisiones":[
+                      {
+                        "nombre": "confronta",
                         "dañada": 3,
                         "faltante": 1 
                       },
-                      "confronta2":{
+                      {
+                        "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
                         "pasillo": 4
                       },
-                      "previa":{
+                      {
+                        "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1
                       }
-                    }
+                    ]
 
                 },
                 {   
@@ -571,7 +697,26 @@
                             "Units": "US$"
                         }
                     },
-                    "HandlingInfo": "Keep fresh and away from sunlight"
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {
+                          "nombre": "confronta",
+                          "dañada": 3,
+                          "faltante": 1 
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1,
+                          "estante": "h",
+                          "pasillo": 4
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1
+                        }
+                    ]
                 },
                 {
                     "itemName": "Naranjas",
@@ -597,7 +742,26 @@
                             "Units": "US$"
                         }
                     },
-                    "HandlingInfo": "Keep fresh and away from sunlight"
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {
+                          "nombre": "confronta",
+                          "dañada": 3,
+                          "faltante": 1 
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1,
+                          "estante": "h",
+                          "pasillo": 4
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "dañada": 4,
+                          "faltante": 1
+                        }
+                    ]
                 }
             ]
         }
