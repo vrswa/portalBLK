@@ -74,7 +74,7 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                       {
-                        "nombre": "confronta",
+                        "nombre": "confronta1",
                         "dañada": 3,
                         "faltante": 1 
                       },
@@ -115,7 +115,7 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                         {
-                          "nombre": "confronta",
+                          "nombre": "confronta1",
                           "dañada": 3,
                           "faltante": 1 
                         },
@@ -155,7 +155,7 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                         {
-                          "nombre": "confronta",
+                          "nombre": "confronta1",
                           "dañada": 3,
                           "faltante": 1 
                         },
@@ -250,7 +250,7 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                       {
-                        "nombre": "confronta",
+                        "nombre": "confronta1",
                         "dañada": 3,
                         "faltante": 1 
                       },
@@ -262,7 +262,7 @@
                         "pasillo": 4
                       },
                       {
-                        "nombre": "confronta2",
+                        "nombre": "previa",
                         "dañada": 4,
                         "faltante": 1
                       }
@@ -308,7 +308,7 @@
                           "pasillo": 4
                         },
                         {
-                          "nombre": "confronta2",
+                          "nombre": "previa",
                           "dañada": 4,
                           "faltante": 1
                         }
@@ -353,7 +353,7 @@
                           "pasillo": 4
                         },
                         {
-                          "nombre": "confronta2",
+                          "nombre": "previa",
                           "dañada": 4,
                           "faltante": 1
                         }
@@ -453,7 +453,7 @@
                         "pasillo": 4
                       },
                       {
-                        "nombre": "confronta2",
+                        "nombre": "previa",
                         "dañada": 4,
                         "faltante": 1
                       }
@@ -499,7 +499,7 @@
                           "pasillo": 4
                         },
                         {
-                          "nombre": "confronta2",
+                          "nombre": "previa",
                           "dañada": 4,
                           "faltante": 1
                         }
@@ -544,7 +544,7 @@
                           "pasillo": 4
                         },
                         {
-                          "nombre": "confronta2",
+                          "nombre": "previa",
                           "dañada": 4,
                           "faltante": 1
                         }
@@ -644,7 +644,7 @@
                         "pasillo": 4
                       },
                       {
-                        "nombre": "confronta2",
+                        "nombre": "previa",
                         "dañada": 4,
                         "faltante": 1
                       }
@@ -690,7 +690,7 @@
                           "pasillo": 4
                         },
                         {
-                          "nombre": "confronta2",
+                          "nombre": "previa",
                           "dañada": 4,
                           "faltante": 1
                         }
@@ -735,7 +735,7 @@
                           "pasillo": 4
                         },
                         {
-                          "nombre": "confronta2",
+                          "nombre": "previa",
                           "dañada": 4,
                           "faltante": 1
                         }
