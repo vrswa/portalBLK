@@ -43,14 +43,7 @@
                 "fechaInicio": "31/08/1995", 
                 "fechaFinalizacion": "32/08/1995", 
                 "lugar": "Emiratos Air port"  
-              },
-              {
-                "nombre": "previa",
-                "estado": "completado/incompleto",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995", 
-                "lugar": "Emiratos Air port"  
-              }  
+              }
             ],
 
             "Items": [
@@ -91,11 +84,6 @@
                         "faltante": 1,
                         "estante": "h",
                         "pasillo": 4
-                      },
-                      {
-                        "nombre": "confronta2",
-                        "dañada": 4,
-                        "faltante": 1
                       }
                     ]
 
@@ -137,11 +125,6 @@
                           "faltante": 1,
                           "estante": "h",
                           "pasillo": 4
-                        },
-                        {
-                          "nombre": "confronta2",
-                          "dañada": 4,
-                          "faltante": 1
                         }
                     ]
                 },
@@ -182,11 +165,6 @@
                           "faltante": 1,
                           "estante": "h",
                           "pasillo": 4
-                        },
-                        {
-                          "nombre": "confronta2",
-                          "dañada": 4,
-                          "faltante": 1
                         }
                     ]
                 }
