@@ -76,14 +76,16 @@
                       {
                         "nombre": "confronta1",
                         "dañada": 3,
-                        "faltante": 1 
+                        "faltante": 1,
+                        "archivos": [ "video.mp4","imagen.png"] 
                       },
                       {
                         "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
-                        "pasillo": 4
+                        "pasillo": 4,
+                        "archivos": [ "video2.mp4","imagen2.png"]
                       }
                     ]
 
@@ -117,14 +119,17 @@
                         {
                           "nombre": "confronta1",
                           "dañada": 3,
-                          "faltante": 1 
+                          "faltante": 1,
+                          "archivos": [ "videoConfronta1.mp4"]
+                          
                         },
                         {
                           "nombre": "confronta2",
                           "dañada": 4,
                           "faltante": 1,
                           "estante": "h",
-                          "pasillo": 4
+                          "pasillo": 4,
+                          "archivos": [ "videoConfronta2.mp4"]
                         }
                     ]
                 },
@@ -157,14 +162,16 @@
                         {
                           "nombre": "confronta1",
                           "dañada": 3,
-                          "faltante": 1 
+                          "faltante": 1,
+                          "archivos": [ "videoConfronta1Naranja.mp4"]
                         },
                         {
                           "nombre": "confronta2",
                           "dañada": 4,
                           "faltante": 1,
                           "estante": "h",
-                          "pasillo": 4
+                          "pasillo": 4,
+                          "archivos": [ "videoConfronta2Naranja.mp4"]
                         }
                     ]
                 }
@@ -252,19 +259,22 @@
                       {
                         "nombre": "confronta1",
                         "dañada": 3,
-                        "faltante": 1 
+                        "faltante": 1,
+                        "archivos": [ "videoConfronta1Aguacates.mp4"]
                       },
                       {
                         "nombre": "confronta2",
                         "dañada": 4,
                         "faltante": 1,
                         "estante": "h",
-                        "pasillo": 4
+                        "pasillo": 4,
+                        "archivos": [ "videoConfronta2Aguacates.mp4"]
                       },
                       {
                         "nombre": "previa",
                         "dañada": 4,
-                        "faltante": 1
+                        "faltante": 1,
+                        "archivos": [ "videoPreviaAguacates.mp4"]
                       }
                     ]
 
@@ -296,21 +306,24 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                         {
-                          "nombre": "confronta",
+                          "nombre": "confronta1",
                           "dañada": 3,
-                          "faltante": 1 
+                          "faltante": 1,
+                          "archivos": [ "videoConfronta1Iphone.mp4"]
                         },
                         {
                           "nombre": "confronta2",
                           "dañada": 4,
                           "faltante": 1,
                           "estante": "h",
-                          "pasillo": 4
+                          "pasillo": 4,
+                          "archivos": [ "videoConfronta2Iphone.mp4"]
                         },
                         {
                           "nombre": "previa",
                           "dañada": 4,
-                          "faltante": 1
+                          "faltante": 1,
+                          "archivos": [ "videoPreviaIphone.mp4"]
                         }
                     ]
                 },
@@ -341,21 +354,24 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                         {
-                          "nombre": "confronta",
+                          "nombre": "confronta1",
                           "dañada": 3,
-                          "faltante": 1 
+                          "faltante": 1,
+                          "archivos": [ "videoConfronta1Naranjas.mp4"]
                         },
                         {
                           "nombre": "confronta2",
                           "dañada": 4,
                           "faltante": 1,
                           "estante": "h",
-                          "pasillo": 4
+                          "pasillo": 4,
+                          "archivos": [ "videoConfronta2Naranjas.mp4"]
                         },
                         {
                           "nombre": "previa",
                           "dañada": 4,
-                          "faltante": 1
+                          "faltante": 1,
+                          "archivos": [ "videoPreviaNaranjas.mp4"]
                         }
                     ]
                 }
@@ -396,21 +412,7 @@
                 "fechaInicio": "31/08/1995", 
                 "fechaFinalizacion": "32/08/1995",
                 "lugar": "MX airport"  
-              },
-              {
-                "nombre": "confronta2",
-                "estado": "completado/incompleto",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995", 
-                "lugar": "Emiratos Air port"  
-              },
-              {
-                "nombre": "previa",
-                "estado": "completado/incompleto",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995", 
-                "lugar": "Emiratos Air port"  
-              }  
+              }
             ],
 
             "Items": [
@@ -441,21 +443,10 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                       {
-                        "nombre": "confronta",
+                        "nombre": "confronta1",
                         "dañada": 3,
-                        "faltante": 1 
-                      },
-                      {
-                        "nombre": "confronta2",
-                        "dañada": 4,
                         "faltante": 1,
-                        "estante": "h",
-                        "pasillo": 4
-                      },
-                      {
-                        "nombre": "previa",
-                        "dañada": 4,
-                        "faltante": 1
+                        "archivos": [ "videoConfronta1Aguacate.mp4"]
                       }
                     ]
 
@@ -487,21 +478,10 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                         {
-                          "nombre": "confronta",
+                          "nombre": "confronta1",
                           "dañada": 3,
-                          "faltante": 1 
-                        },
-                        {
-                          "nombre": "confronta2",
-                          "dañada": 4,
                           "faltante": 1,
-                          "estante": "h",
-                          "pasillo": 4
-                        },
-                        {
-                          "nombre": "previa",
-                          "dañada": 4,
-                          "faltante": 1
+                          "archivos": [ "videoConfronta1Iphone.mp4"]
                         }
                     ]
                 },
@@ -532,212 +512,10 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                         {
-                          "nombre": "confronta",
+                          "nombre": "confronta1",
                           "dañada": 3,
-                          "faltante": 1 
-                        },
-                        {
-                          "nombre": "confronta2",
-                          "dañada": 4,
                           "faltante": 1,
-                          "estante": "h",
-                          "pasillo": 4
-                        },
-                        {
-                          "nombre": "previa",
-                          "dañada": 4,
-                          "faltante": 1
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre" : "GuiaDeEmbarque4",
-            "Shipper": {
-                "Name": "MSC",
-                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
-                "AcountNo": "123456",
-                "PhoneNo": "(52)-55-5243-1523"
-            },
-            "Consignee": {
-                "Name": "Yusen",
-                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
-                "AcountNo": "12345678",
-                "PhoneNo": "(52)-55-5025-3652",
-                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
-            },
-            "Comment": "General",
-            "FlyGuideId": "MX00001",
-            "OriginAirport": "EZE",
-            "DestinationAirport": "MEX",
-            "IATACode": "12345678",
-            "DeclaredValue": {
-                "Value": 192832.45,
-                "Currency": "US$"
-            },
-            "CustomsValue": {
-                "Value": 45000,
-                "Currency": "US$"
-            },
-            "Contrato": 452812,
-            "inspeccion" : [
-              {
-                "nombre": "confronta1",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995",
-                "lugar": "MX airport"  
-              },
-              {
-                "nombre": "confronta2",
-                "estado": "completado/incompleto",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995", 
-                "lugar": "Emiratos Air port"  
-              },
-              {
-                "nombre": "previa",
-                "estado": "completado/incompleto",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995", 
-                "lugar": "Emiratos Air port"  
-              }  
-            ],
-
-            "Items": [
-                {
-                    "itemName": "Aguacates",
-                    "Quantity": 5,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
-                      {
-                        "nombre": "confronta",
-                        "dañada": 3,
-                        "faltante": 1 
-                      },
-                      {
-                        "nombre": "confronta2",
-                        "dañada": 4,
-                        "faltante": 1,
-                        "estante": "h",
-                        "pasillo": 4
-                      },
-                      {
-                        "nombre": "previa",
-                        "dañada": 4,
-                        "faltante": 1
-                      }
-                    ]
-
-                },
-                {   
-                    "itemName": "IphoneXS",
-                    "Quantity": 5,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
-                        {
-                          "nombre": "confronta",
-                          "dañada": 3,
-                          "faltante": 1 
-                        },
-                        {
-                          "nombre": "confronta2",
-                          "dañada": 4,
-                          "faltante": 1,
-                          "estante": "h",
-                          "pasillo": 4
-                        },
-                        {
-                          "nombre": "previa",
-                          "dañada": 4,
-                          "faltante": 1
-                        }
-                    ]
-                },
-                {
-                    "itemName": "Naranjas",
-                    "Quantity": 5,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
-                        {
-                          "nombre": "confronta",
-                          "dañada": 3,
-                          "faltante": 1 
-                        },
-                        {
-                          "nombre": "confronta2",
-                          "dañada": 4,
-                          "faltante": 1,
-                          "estante": "h",
-                          "pasillo": 4
-                        },
-                        {
-                          "nombre": "previa",
-                          "dañada": 4,
-                          "faltante": 1
+                          "archivos": [ "videoConfronta1Naranjas.mp4"]
                         }
                     ]
                 }
