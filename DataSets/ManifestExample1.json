@@ -77,7 +77,7 @@
                         "nombre": "confronta1",
                         "dañada": 3,
                         "faltante": 1,
-                        "archivos": [ "video.mp4","imagen.png"] 
+                        "archivos": [ "videoPrueba1.mp4","imagenPrueba1.jpg"] 
                       },
                       {
                         "nombre": "confronta2",
@@ -85,7 +85,7 @@
                         "faltante": 1,
                         "estante": "h",
                         "pasillo": 4,
-                        "archivos": [ "video2.mp4","imagen2.png"]
+                        "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba3.jpg"] 
                       }
                     ]
 
@@ -120,7 +120,7 @@
                           "nombre": "confronta1",
                           "dañada": 3,
                           "faltante": 1,
-                          "archivos": [ "videoConfronta1.mp4"]
+                          "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba3.jpg"]
                           
                         },
                         {
@@ -129,7 +129,7 @@
                           "faltante": 1,
                           "estante": "h",
                           "pasillo": 4,
-                          "archivos": [ "videoConfronta2.mp4"]
+                          "archivos": ["imagenPrueba4.jpg","imagenPrueba5.jpg"]
                         }
                     ]
                 },
@@ -260,7 +260,7 @@
                         "nombre": "confronta1",
                         "dañada": 3,
                         "faltante": 1,
-                        "archivos": [ "videoConfronta1Aguacates.mp4"]
+                        "archivos": [ "videoConfronta1Aguacates.mp4","imagenPrueba6.jpg"]
                       },
                       {
                         "nombre": "confronta2",
@@ -446,7 +446,7 @@
                         "nombre": "confronta1",
                         "dañada": 3,
                         "faltante": 1,
-                        "archivos": [ "videoConfronta1Aguacate.mp4"]
+                        "archivos": [ "imagenPrueba8.mp4"]
                       }
                     ]
 
@@ -481,7 +481,7 @@
                           "nombre": "confronta1",
                           "dañada": 3,
                           "faltante": 1,
-                          "archivos": [ "videoConfronta1Iphone.mp4"]
+                          "archivos": [ "imagenPrueba7.mp4"]
                         }
                     ]
                 },
@@ -515,7 +515,7 @@
                           "nombre": "confronta1",
                           "dañada": 3,
                           "faltante": 1,
-                          "archivos": [ "videoConfronta1Naranjas.mp4"]
+                          "archivos": [ "imagenPrueba9.mp4"]
                         }
                     ]
                 }
