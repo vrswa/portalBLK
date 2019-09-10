@@ -98,21 +98,23 @@
                         "inspected":2,
                         "dañada": 0,
                         "faltante": 0,
-                        "estante": 3,
-                        "pasillo": "z",
+                        "pasillo": 3,
+                        "estante": "z",
                         "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba3.jpg"] 
                       },
                       {
                         "nombre": "previa",
-                        "dañada": 4,
-                        "faltante": 1,
+                        "packages": 200,
+                        "inspected": 200,
+                        "dañada": 0,
+                        "faltante": 0,
                         "archivos": [ "videoPreviaAguacates.mp4"]
                       }
                     ]
 
                 },
-                {   
-                    "itemName": "POKEMON BELT",
+                {
+                    "itemName": "PWB ASSY",
                     "packages": 32,
                     "units": 80,
                     "GrossWeight": {
@@ -144,7 +146,7 @@
                           "inspected": 31,
                           "dañada": 5,
                           "faltante": 1,
-                          "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba3.jpg"]
+                          "archivos": [ "videoConfronta1Naranja.mp4"]
                         },
                         {
                           "nombre": "confronta2",
@@ -152,20 +154,22 @@
                           "inspected": 31,
                           "dañada": 5,
                           "faltante": 1,
-                          "estante": "h",
-                          "pasillo": 4,
-                          "archivos": ["imagenPrueba4.jpg","imagenPrueba5.jpg"]
+                          "pasillo": 1,
+                          "estante": "H",                          
+                          "archivos": [ "videoConfronta2Naranja.mp4"]
                         },
                         {
                             "nombre": "previa",
-                            "dañada": 4,
-                            "faltante": 1,
+                            "packages": 80,
+                            "inspected": 76,
+                            "dañada": 15,
+                            "faltante": 4,
                             "archivos": [ "videoPreviaAguacates.mp4"]
                         }
                     ]
                 },
-                {
-                    "itemName": "PWB ASSY",
+                {   
+                    "itemName": "POKEMON BELT",
                     "packages": 8,
                     "units": 120,
                     "GrossWeight": {
@@ -197,7 +201,7 @@
                           "inspected": 8,
                           "dañada": 0,
                           "faltante": 0,
-                          "archivos": [ "videoConfronta1Naranja.mp4"]
+                          "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba3.jpg"]
                         },
                         {
                           "nombre": "confronta2",
@@ -205,14 +209,16 @@
                           "inspected": 8,
                           "dañada": 0,
                           "faltante": 0,
-                          "estante": "h",
-                          "pasillo": 4,
-                          "archivos": [ "videoConfronta2Naranja.mp4"]
+                          "pasillo": 5,
+                          "estante": "B",                          
+                          "archivos": ["imagenPrueba4.jpg","imagenPrueba5.jpg"]
                         },
                         {
                             "nombre": "previa",
-                            "dañada": 4,
-                            "faltante": 1,
+                            "packages": 120,
+                            "inspected": 120,
+                            "dañada": 0,
+                            "faltante": 0,
                             "archivos": [ "videoPreviaAguacates.mp4"]
                         }
                     ]
@@ -569,3 +575,4 @@
         }
     ]
 }
+
