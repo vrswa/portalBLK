@@ -1,8 +1,8 @@
 {   
-    "manifiestoId" : "MX123",
+    "manifiestoId" : "AM00057",
     "GuiasDeEmbarque":[
         {
-            "nombre" : "GuiaDeEmbarque1",
+            "nombre" : "139-4437616",
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -33,23 +33,34 @@
             "inspeccion" : [
               {
                 "nombre": "confronta1",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995",
+                "fechaInicio": "31/08/2019", 
+                "horaInicio": "14:30",
+                "horaFinalizacion": "16:00",
                 "lugar": "MX airport"  
               },
               {
                 "nombre": "confronta2",
                 "estado": "completado/incompleto",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995", 
-                "lugar": "Emiratos Air port"  
+                "fechaInicio": "2/09/2019", 
+                "horaInicio": "16:00",
+                "horaFinalizacion": "17:00",
+                "lugar": "MX Air port"  
+              },
+              {
+                "nombre": "previa",
+                "estado": "completado/incompleto",
+                "fechaInicio": "04/09/2019", 
+                "horaInicio": "18:00",
+                "horaFinalizacion": "19:30", 
+                "lugar": "MX Air port"  
               }
             ],
 
             "Items": [
                 {
-                    "itemName": "Aguacates",
-                    "Quantity": 5,
+                    "itemName": "SPICY MUSTARD",
+                    "packages": 2,
+                    "units": 200,
                     "GrossWeight": {
                         "Value": 32,
                         "Units": "Kg"
@@ -60,7 +71,7 @@
                         "Value": 33,
                         "Units": "Kg"
                     },
-                    "Description": "Aguacates de exportacion AAA",
+                    "Description": "place holder",
                     "UnitPrice": {
                         "Value": 6,
                         "Units": "Kg"
@@ -75,24 +86,35 @@
                     "revisiones":[
                       {
                         "nombre": "confronta1",
-                        "dañada": 3,
-                        "faltante": 1,
-                        "archivos": [ "videoPrueba1.mp4","imagenPrueba1.jpg"] 
+                        "packages": 2,
+                        "inspected":2,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": ["asd"]
                       },
                       {
                         "nombre": "confronta2",
+                        "packages": 2,
+                        "inspected":2,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "estante": 3,
+                        "pasillo": "z",
+                        "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba3.jpg"] 
+                      },
+                      {
+                        "nombre": "previa",
                         "dañada": 4,
                         "faltante": 1,
-                        "estante": "h",
-                        "pasillo": 4,
-                        "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba3.jpg"] 
+                        "archivos": [ "videoPreviaAguacates.mp4"]
                       }
                     ]
 
                 },
                 {   
-                    "itemName": "IphoneXS",
-                    "Quantity": 5,
+                    "itemName": "POKEMON BELT",
+                    "packages": 32,
+                    "units": 80,
                     "GrossWeight": {
                         "Value": 32,
                         "Units": "Kg"
@@ -118,24 +140,34 @@
                     "revisiones":[
                         {
                           "nombre": "confronta1",
-                          "dañada": 3,
+                          "packages": 32,
+                          "inspected": 31,
+                          "dañada": 5,
                           "faltante": 1,
                           "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba3.jpg"]
-                          
                         },
                         {
                           "nombre": "confronta2",
-                          "dañada": 4,
+                          "packages": 32,
+                          "inspected": 31,
+                          "dañada": 5,
                           "faltante": 1,
                           "estante": "h",
                           "pasillo": 4,
                           "archivos": ["imagenPrueba4.jpg","imagenPrueba5.jpg"]
+                        },
+                        {
+                            "nombre": "previa",
+                            "dañada": 4,
+                            "faltante": 1,
+                            "archivos": [ "videoPreviaAguacates.mp4"]
                         }
                     ]
                 },
                 {
-                    "itemName": "Naranjas",
-                    "Quantity": 5,
+                    "itemName": "PWB ASSY",
+                    "packages": 8,
+                    "units": 120,
                     "GrossWeight": {
                         "Value": 32,
                         "Units": "Kg"
@@ -161,24 +193,34 @@
                     "revisiones":[
                         {
                           "nombre": "confronta1",
-                          "dañada": 3,
-                          "faltante": 1,
+                          "packages": 8,
+                          "inspected": 8,
+                          "dañada": 0,
+                          "faltante": 0,
                           "archivos": [ "videoConfronta1Naranja.mp4"]
                         },
                         {
                           "nombre": "confronta2",
-                          "dañada": 4,
-                          "faltante": 1,
+                          "packages": 8,
+                          "inspected": 8,
+                          "dañada": 0,
+                          "faltante": 0,
                           "estante": "h",
                           "pasillo": 4,
                           "archivos": [ "videoConfronta2Naranja.mp4"]
+                        },
+                        {
+                            "nombre": "previa",
+                            "dañada": 4,
+                            "faltante": 1,
+                            "archivos": [ "videoPreviaAguacates.mp4"]
                         }
                     ]
                 }
             ]
         },
         {
-            "nombre" : "GuiaDeEmbarque2",
+            "nombre" : "139-4437655",
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -210,21 +252,24 @@
               {
                 "nombre": "confronta1",
                 "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995",
+                "horaInicio": "18:00",
+                "horaFinalizacion": "19:30", 
                 "lugar": "MX airport"  
               },
               {
                 "nombre": "confronta2",
                 "estado": "completado/incompleto",
                 "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995", 
+                "horaInicio": "18:00",
+                "horaFinalizacion": "19:30", 
                 "lugar": "Emiratos Air port"  
               },
               {
                 "nombre": "previa",
                 "estado": "completado/incompleto",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995", 
+                "fechaInicio": "31/08/1995",
+                "horaInicio": "18:00",
+                "horaFinalizacion": "19:30", 
                 "lugar": "Emiratos Air port"  
               }  
             ],
@@ -378,7 +423,7 @@
             ]
         },
         {
-            "nombre" : "GuiaDeEmbarque3",
+            "nombre" : "139-4437186",
             "Shipper": {
                 "Name": "MSC",
                 "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
@@ -409,9 +454,10 @@
             "inspeccion" : [
               {
                 "nombre": "confronta1",
-                "fechaInicio": "31/08/1995", 
-                "fechaFinalizacion": "32/08/1995",
-                "lugar": "MX airport"  
+                "fechaInicio": "31/08/1995",
+                "lugar": "MX airport",
+                "horaInicio": "18:00",
+                "horaFinalizacion": "19:30"
               }
             ],
 
