@@ -145,7 +145,7 @@
                           "inspected": 5,
                           "dañada": 2,
                           "faltante": 1,
-                          "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.jpg"]
+                          "archivos": [ "videoPrueba1.mp4","videoPrueba2.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
                         },
                         {
                           "nombre": "confronta2",
@@ -281,8 +281,9 @@
 
             "Items": [
                 {
-                    "itemName": "Aguacates",
-                    "Quantity": 5,
+                    "itemName": "SPICY MUSTARD",
+                    "packages": 2,
+                    "units": 24,
                     "GrossWeight": {
                         "Value": 32,
                         "Units": "Kg"
@@ -293,7 +294,7 @@
                         "Value": 33,
                         "Units": "Kg"
                     },
-                    "Description": "Aguacates de exportacion AAA",
+                    "Description": "place holder",
                     "UnitPrice": {
                         "Value": 6,
                         "Units": "Kg"
@@ -308,78 +309,91 @@
                     "revisiones":[
                       {
                         "nombre": "confronta1",
-                        "dañada": 3,
-                        "faltante": 1,
-                        "archivos": [ "videoConfronta1Aguacates.mp4","imagenPrueba6.jpg"]
+                        "packages": 2,
+                        "inspected":2,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": []
                       },
                       {
                         "nombre": "confronta2",
-                        "dañada": 4,
-                        "faltante": 1,
-                        "estante": "h",
-                        "pasillo": 4,
-                        "archivos": [ "videoConfronta2Aguacates.mp4"]
+                        "packages": 2,
+                        "inspected":2,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "pasillo": 3,
+                        "estante": "Z",
+                        "archivos": [] 
                       },
                       {
                         "nombre": "previa",
-                        "dañada": 4,
-                        "faltante": 1,
-                        "archivos": [ "videoPreviaAguacates.mp4"]
+                        "packages": 24,
+                        "inspected": 24,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": []
                       }
-                    ]
-
-                },
-                {   
-                    "itemName": "IphoneXS",
-                    "Quantity": 5,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
-                        {
-                          "nombre": "confronta1",
-                          "dañada": 3,
-                          "faltante": 1,
-                          "archivos": [ "imagenPrueba9.png","imagenPrueba8.png","imagenPrueba7.png"]
-                        },
-                        {
-                          "nombre": "confronta2",
-                          "dañada": 4,
-                          "faltante": 1,
-                          "estante": "h",
-                          "pasillo": 4,
-                          "archivos": [ "imagenPrueba6.png","imagenPrueba5.png"]
-                        },
-                        {
-                          "nombre": "previa",
-                          "dañada": 4,
-                          "faltante": 1,
-                          "archivos": [ "imagenPrueba4.png", "imagenPrueba3.png"]
-                        }
                     ]
                 },
                 {
-                    "itemName": "Naranjas",
-                    "Quantity": 5,
+                    "itemName": "PWB ASSY",
+                    "packages": 6,
+                    "units": 30,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {            
+                          "nombre": "confronta1",
+                          "packages": 6,
+                          "inspected": 5,
+                          "dañada": 2,
+                          "faltante": 1,
+                          "archivos": [ "videoPrueba1.mp4","videoPrueba2.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "packages": 6,
+                          "inspected": 5,
+                          "dañada": 2,
+                          "faltante": 1,
+                          "pasillo": 1,
+                          "estante": "H",                          
+                          "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        },
+                        {
+                            "nombre": "previa",
+                            "packages": 30,
+                            "inspected": 28,
+                            "dañada": 5,
+                            "faltante": 2,
+                            "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        }
+                    ]
+                },
+                {   
+                    "itemName": "POKEMON BELT",
+                    "packages": 8,
+                    "units": 160,
                     "GrossWeight": {
                         "Value": 32,
                         "Units": "Kg"
@@ -405,23 +419,29 @@
                     "revisiones":[
                         {
                           "nombre": "confronta1",
-                          "dañada": 3,
-                          "faltante": 1,
-                          "archivos": [ "videoConfronta1Naranjas.mp4"]
+                          "packages": 8,
+                          "inspected": 8,
+                          "dañada": 0,
+                          "faltante": 0,
+                          "archivos": [ ]
                         },
                         {
                           "nombre": "confronta2",
-                          "dañada": 4,
-                          "faltante": 1,
-                          "estante": "h",
-                          "pasillo": 4,
-                          "archivos": [ "videoConfronta2Naranjas.mp4"]
+                          "packages": 8,
+                          "inspected": 8,
+                          "dañada": 0,
+                          "faltante": 0,
+                          "pasillo": 5,
+                          "estante": "B",                          
+                          "archivos": []
                         },
                         {
-                          "nombre": "previa",
-                          "dañada": 4,
-                          "faltante": 1,
-                          "archivos": [ "videoPreviaNaranjas.mp4"]
+                            "nombre": "previa",
+                            "packages": 120,
+                            "inspected": 120,
+                            "dañada": 0,
+                            "faltante": 0,
+                            "archivos": []
                         }
                     ]
                 }
@@ -468,8 +488,9 @@
 
             "Items": [
                 {
-                    "itemName": "Aguacates",
-                    "Quantity": 5,
+                    "itemName": "SPICY MUSTARD",
+                    "packages": 2,
+                    "units": 24,
                     "GrossWeight": {
                         "Value": 32,
                         "Units": "Kg"
@@ -480,7 +501,7 @@
                         "Value": 33,
                         "Units": "Kg"
                     },
-                    "Description": "Aguacates de exportacion AAA",
+                    "Description": "place holder",
                     "UnitPrice": {
                         "Value": 6,
                         "Units": "Kg"
@@ -495,50 +516,91 @@
                     "revisiones":[
                       {
                         "nombre": "confronta1",
-                        "dañada": 3,
-                        "faltante": 1,
-                        "archivos": [ "imagenPrueba8.mp4"]
+                        "packages": 2,
+                        "inspected":2,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": []
+                      },
+                      {
+                        "nombre": "confronta2",
+                        "packages": 2,
+                        "inspected":2,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "pasillo": 3,
+                        "estante": "Z",
+                        "archivos": [] 
+                      },
+                      {
+                        "nombre": "previa",
+                        "packages": 24,
+                        "inspected": 24,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": []
                       }
-                    ]
-
-                },
-                {   
-                    "itemName": "IphoneXS",
-                    "Quantity": 5,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
-                        {
-                          "nombre": "confronta1",
-                          "dañada": 3,
-                          "faltante": 1,
-                          "archivos": [ "imagenPrueba7.mp4"]
-                        }
                     ]
                 },
                 {
-                    "itemName": "Naranjas",
-                    "Quantity": 5,
+                    "itemName": "PWB ASSY",
+                    "packages": 6,
+                    "units": 30,
+                    "GrossWeight": {
+                        "Value": 32,
+                        "Units": "Kg"
+                    },
+                    "RateClass": "Q",
+                    "CommodityItemNo": "??",
+                    "ChargableWeight": {
+                        "Value": 33,
+                        "Units": "Kg"
+                    },
+                    "Description": "Aguacates de exportacion AAA",
+                    "UnitPrice": {
+                        "Value": 6,
+                        "Units": "Kg"
+                    },
+                    "OtherCharges": {
+                        "Boxes repair at customs": {
+                            "Value": 6,
+                            "Units": "US$"
+                        }
+                    },
+                    "HandlingInfo": "Keep fresh and away from sunlight",
+                    "revisiones":[
+                        {            
+                          "nombre": "confronta1",
+                          "packages": 6,
+                          "inspected": 5,
+                          "dañada": 2,
+                          "faltante": 1,
+                          "archivos": [ "videoPrueba1.mp4","videoPrueba2.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "packages": 6,
+                          "inspected": 5,
+                          "dañada": 2,
+                          "faltante": 1,
+                          "pasillo": 1,
+                          "estante": "H",                          
+                          "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        },
+                        {
+                            "nombre": "previa",
+                            "packages": 30,
+                            "inspected": 28,
+                            "dañada": 5,
+                            "faltante": 2,
+                            "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        }
+                    ]
+                },
+                {   
+                    "itemName": "POKEMON BELT",
+                    "packages": 8,
+                    "units": 160,
                     "GrossWeight": {
                         "Value": 32,
                         "Units": "Kg"
@@ -564,9 +626,29 @@
                     "revisiones":[
                         {
                           "nombre": "confronta1",
-                          "dañada": 3,
-                          "faltante": 1,
-                          "archivos": [ "imagenPrueba9.mp4"]
+                          "packages": 8,
+                          "inspected": 8,
+                          "dañada": 0,
+                          "faltante": 0,
+                          "archivos": [ ]
+                        },
+                        {
+                          "nombre": "confronta2",
+                          "packages": 8,
+                          "inspected": 8,
+                          "dañada": 0,
+                          "faltante": 0,
+                          "pasillo": 5,
+                          "estante": "B",                          
+                          "archivos": []
+                        },
+                        {
+                            "nombre": "previa",
+                            "packages": 120,
+                            "inspected": 120,
+                            "dañada": 0,
+                            "faltante": 0,
+                            "archivos": []
                         }
                     ]
                 }
