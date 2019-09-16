@@ -368,7 +368,7 @@
                           "inspected": 5,
                           "dañada": 2,
                           "faltante": 1,
-                          "archivos": [ "videoPrueba1.mp4","videoPrueba2.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                          "archivos": ["videoPrueba2.mp4","imagenPrueba5.jpg","imagenPrueba6.png"]
                         },
                         {
                           "nombre": "confronta2",
@@ -378,7 +378,7 @@
                           "faltante": 1,
                           "pasillo": 1,
                           "estante": "H",                          
-                          "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                          "archivos": [ "videoPrueba1.mp4","imagenPrueba9.jpg","imagenPrueba3.jpg"]
                         },
                         {
                             "nombre": "previa",
