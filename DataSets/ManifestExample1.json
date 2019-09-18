@@ -84,7 +84,11 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
-                      {
+                    {
+                        "nombre": "Pre Inspection",
+                        "packages": 2
+                    },
+                    {
                         "nombre": "Inspection 1",
                         "packages": 2,
                         "inspected":2,
@@ -139,6 +143,10 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 6
+                        },
                         {            
                           "nombre": "Inspection 1",
                           "packages": 6,
@@ -194,6 +202,10 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 8
+                        },
                         {
                           "nombre": "Inspection 1",
                           "packages": 8,
@@ -307,6 +319,10 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 2
+                        },
                       {
                         "nombre": "Inspection 1",
                         "packages": 2,
@@ -362,6 +378,10 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 6
+                        },
                         {            
                           "nombre": "Inspection 1",
                           "packages": 6,
@@ -417,6 +437,10 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 8
+                        },
                         {
                           "nombre": "Inspection 1",
                           "packages": 8,
@@ -514,6 +538,10 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 2
+                        },
                       {
                         "nombre": "Inspection 1",
                         "packages": 2,
@@ -569,6 +597,10 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 6
+                        },
                         {            
                           "nombre": "Inspection 1",
                           "packages": 6,
@@ -624,6 +656,10 @@
                     },
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 8
+                        },
                         {
                           "nombre": "Inspection 1",
                           "packages": 8,
