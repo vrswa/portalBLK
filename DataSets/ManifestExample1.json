@@ -1,4 +1,4 @@
-{   
+{  
     "manifiestoId" : "AM00057",
     "GuiasDeEmbarque":[
         {
@@ -203,7 +203,7 @@
                     "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                         {
-                            "nombre": "To be inspected",
+                            "nombre": "Pre Inspection",
                             "packages": 8
                         },
                         {
