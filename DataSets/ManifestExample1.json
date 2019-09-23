@@ -1,89 +1,53 @@
-{  
-    "manifiestoId" : "AM00057",
-    "GuiasDeEmbarque":[
-        {
-            "nombre" : "139-4437616",
-            "Shipper": {
-                "Name": "MSC",
-                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
-                "AcountNo": "123456",
-                "PhoneNo": "(52)-55-5243-1523"
-            },
-            "Consignee": {
-                "Name": "Yusen",
-                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
-                "AcountNo": "12345678",
-                "PhoneNo": "(52)-55-5025-3652",
-                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
-            },
-            "Comment": "General",
-            "FlyGuideId": "MX00001",
-            "OriginAirport": "EZE",
-            "DestinationAirport": "MEX",
-            "IATACode": "12345678",
-            "DeclaredValue": {
-                "Value": 192832.45,
-                "Currency": "US$"
-            },
-            "CustomsValue": {
-                "Value": 45000,
-                "Currency": "US$"
-            },
-            "Contrato": 452812,
-            "inspeccion" : [
-              {
-                "nombre": "Inspection 1",
-                "fechaInicio": "31/08/2019", 
-                "horaInicio": "14:30",
-                "horaFinalizacion": "16:00",
-                "lugar": "CDMX Airport"  
-              },
-              {
-                "nombre": "Inspection 2",
-                "estado": "completado/incompleto",
-                "fechaInicio": "2/09/2019", 
-                "horaInicio": "16:00",
-                "horaFinalizacion": "17:00",
-                "lugar": "CDMX Airport"  
-              },
-              {
-                "nombre": "Inspection 3",
-                "estado": "completado/incompleto",
-                "fechaInicio": "04/09/2019", 
-                "horaInicio": "18:00",
-                "horaFinalizacion": "19:30", 
-                "lugar": "CDMX Airport"  
-              }
-            ],
-
-            "Items": [
+[
+    {
+       "id":"MAN-000001",
+       "name":"AM00057",
+       "dateDeparture":"8\/6\/19",
+       "guides":[
+          {
+             "id":"AWB-000001-0001",
+             "name":"139-4437616",
+             "manifestId":"MAN-000001",
+             "inspeccion" : [
                 {
-                    "itemName": "SPICY MUSTARD",
-                    "packages": 2,
-                    "units": 24,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "place holder",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
+                  "nombre": "Inspection pallet",
+                  "problem": true,
+                  "files": ["videoPrueba1.mp4","imagen.mp4"],
+                  "fechaInicio": "31/08/2019", 
+                  "horaInicio": "10:00",
+                  "horaFinalizacion": "11:00"
+                },
+                {
+                  "nombre": "Inspection 1",
+                  "fechaInicio": "31/08/2019", 
+                  "horaInicio": "14:30",
+                  "horaFinalizacion": "16:00",
+                  "lugar": "CDMX Airport"  
+                },
+                {
+                  "nombre": "Inspection 2",
+                  "estado": "completado/incompleto",
+                  "fechaInicio": "2/09/2019", 
+                  "horaInicio": "16:00",
+                  "horaFinalizacion": "17:00",
+                  "lugar": "CDMX Airport"  
+                },
+                {
+                  "nombre": "Inspection 3",
+                  "estado": "completado/incompleto",
+                  "fechaInicio": "04/09/2019", 
+                  "horaInicio": "18:00",
+                  "horaFinalizacion": "19:30", 
+                  "lugar": "CDMX Airport"  
+                }
+              ],  
+             "items":[
+                {
+                   "id":"ITM-000001-0001-001",
+                   "name":"SPICY MUSTARD",
+                   "packages": 2,
+                   "units": 24,
+                   "revisiones":[
                     {
                         "nombre": "Pre Inspection",
                         "packages": 2
@@ -117,53 +81,32 @@
                     ]
                 },
                 {
-                    "itemName": "PWB ASSY",
-                    "packages": 6,
-                    "units": 30,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
+                   "id":"ITM-000001-0001-002",
+                   "name":"PWB ASSY",
+                   "packages": 6,
+                   "units": 30,
+                   "revisiones":[
                         {
                             "nombre": "Pre Inspection",
                             "packages": 6
                         },
                         {            
-                          "nombre": "Inspection 1",
-                          "packages": 6,
-                          "inspected": 5,
-                          "dañada": 2,
-                          "faltante": 1,
-                          "archivos": [ "videoPrueba1.mp4","videoPrueba2.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        "nombre": "Inspection 1",
+                        "packages": 6,
+                        "inspected": 5,
+                        "dañada": 2,
+                        "faltante": 1,
+                        "archivos": [ "videoPrueba1.mp4","videoPrueba2.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
                         },
                         {
-                          "nombre": "Inspection 2",
-                          "packages": 6,
-                          "inspected": 5,
-                          "dañada": 2,
-                          "faltante": 1,
-                          "pasillo": 1,
-                          "estante": "H",                          
-                          "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        "nombre": "Inspection 2",
+                        "packages": 6,
+                        "inspected": 5,
+                        "dañada": 2,
+                        "faltante": 1,
+                        "pasillo": 1,
+                        "estante": "H",                          
+                        "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
                         },
                         {
                             "nombre": "Inspection 3",
@@ -175,54 +118,33 @@
                         }
                     ]
                 },
-                {   
-                    "itemName": "POKEMON BELT",
-                    "packages": 8,
-                    "units": 160,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
+                {
+                   "id":"ITM-000001-0001-003",
+                   "name":"POKEMON BELT",
+                   "packages": 8,
+                   "units": 160,
+                   "revisiones":[
                         {
                             "nombre": "Pre Inspection",
                             "packages": 8
                         },
                         {
-                          "nombre": "Inspection 1",
-                          "packages": 8,
-                          "inspected": 8,
-                          "dañada": 0,
-                          "faltante": 0,
-                          "archivos": [ ]
+                        "nombre": "Inspection 1",
+                        "packages": 8,
+                        "inspected": 8,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": [ ]
                         },
                         {
-                          "nombre": "Inspection 2",
-                          "packages": 8,
-                          "inspected": 8,
-                          "dañada": 0,
-                          "faltante": 0,
-                          "pasillo": 5,
-                          "estante": "B",                          
-                          "archivos": []
+                        "nombre": "Inspection 2",
+                        "packages": 8,
+                        "inspected": 8,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "pasillo": 5,
+                        "estante": "B",                          
+                        "archivos": []
                         },
                         {
                             "nombre": "Inspection 3",
@@ -234,90 +156,179 @@
                         }
                     ]
                 }
-            ]
-        },
-        {
-            "nombre" : "139-4437655",
-            "Shipper": {
-                "Name": "MSC",
-                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
-                "AcountNo": "123456",
-                "PhoneNo": "(52)-55-5243-1523"
-            },
-            "Consignee": {
-                "Name": "Yusen",
-                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
-                "AcountNo": "12345678",
-                "PhoneNo": "(52)-55-5025-3652",
-                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
-            },
-            "Comment": "General",
-            "FlyGuideId": "MX00001",
-            "OriginAirport": "EZE",
-            "DestinationAirport": "MEX",
-            "IATACode": "12345678",
-            "DeclaredValue": {
-                "Value": 192832.45,
-                "Currency": "US$"
-            },
-            "CustomsValue": {
-                "Value": 45000,
-                "Currency": "US$"
-            },
-            "Contrato": 452812,
-            "inspeccion" : [
-              {
-                "nombre": "Inspection 1",
-                "fechaInicio": "31/08/1995", 
-                "horaInicio": "18:00",
-                "horaFinalizacion": "19:30", 
-                "lugar": "CDMX Airport"  
-              },
-              {
-                "nombre": "Inspection 2",
-                "estado": "completado/incompleto",
-                "fechaInicio": "31/08/1995", 
-                "horaInicio": "18:00",
-                "horaFinalizacion": "19:30", 
-                "lugar": "Emiratos Air port"  
-              },
-              {
-                "nombre": "Inspection 3",
-                "estado": "completado/incompleto",
-                "fechaInicio": "31/08/1995",
-                "horaInicio": "18:00",
-                "horaFinalizacion": "19:30", 
-                "lugar": "Emiratos Air port"  
-              }  
-            ],
-
-            "Items": [
+             ]
+          },
+          {
+             "id":"AWB-000001-0002",
+             "name":"139-4437617",
+             "inspeccion" : [
                 {
-                    "itemName": "SPICY MUSTARD",
+                  "nombre": "Inspection pallet",
+                  "problem": false
+                },
+                {
+                  "nombre": "Inspection 1",
+                  "fechaInicio": "31/08/1995", 
+                  "horaInicio": "18:00",
+                  "horaFinalizacion": "19:30", 
+                  "lugar": "CDMX Airport"  
+                },
+                {
+                  "nombre": "Inspection 2",
+                  "estado": "completado/incompleto",
+                  "fechaInicio": "31/08/1995", 
+                  "horaInicio": "18:00",
+                  "horaFinalizacion": "19:30", 
+                  "lugar": "Emiratos Air port"  
+                },
+                {
+                  "nombre": "Inspection 3",
+                  "estado": "completado/incompleto",
+                  "fechaInicio": "31/08/1995",
+                  "horaInicio": "18:00",
+                  "horaFinalizacion": "19:30", 
+                  "lugar": "Emiratos Air port"  
+                }  
+              ],
+             "items":[
+                {
+                   "id":"ITM-000001-0002-001",
+                   "name": "SPICY MUSTARD",
+                   "packages": 2,
+                   "units": 24,
+                   "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 2
+                        },
+                    {
+                        "nombre": "Inspection 1",
+                        "packages": 2,
+                        "inspected":2,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": []
+                    },
+                    {
+                        "nombre": "Inspection 2",
+                        "packages": 2,
+                        "inspected":2,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "pasillo": 3,
+                        "estante": "Z",
+                        "archivos": [] 
+                    },
+                    {
+                        "nombre": "Inspection 3",
+                        "packages": 24,
+                        "inspected": 24,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": []
+                    }
+                    ]
+                },
+                {
+                   "id":"ITM-000001-0002-002",
+                   "name": "PWB ASSY",
+                   "packages": 6,
+                   "units": 30,
+                   "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 6
+                        },
+                        {            
+                        "nombre": "Inspection 1",
+                        "packages": 6,
+                        "inspected": 5,
+                        "dañada": 2,
+                        "faltante": 1,
+                        "archivos": ["videoPrueba2.mp4","imagenPrueba5.jpg","imagenPrueba6.png"]
+                        },
+                        {
+                        "nombre": "Inspection 2",
+                        "packages": 6,
+                        "inspected": 5,
+                        "dañada": 2,
+                        "faltante": 1,
+                        "pasillo": 1,
+                        "estante": "H",                          
+                        "archivos": [ "videoPrueba1.mp4","imagenPrueba9.jpg","imagenPrueba3.jpg"]
+                        },
+                        {
+                            "nombre": "Inspection 3",
+                            "packages": 30,
+                            "inspected": 28,
+                            "dañada": 5,
+                            "faltante": 2,
+                            "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        }
+                    ]
+                },
+                {
+                   "id":"ITM-000001-0002-003",
+                   "name": "POKEMON BELT",
+                   "packages": 8,
+                   "units": 160,
+                   "revisiones":[
+                        {
+                            "nombre": "Pre Inspection",
+                            "packages": 8
+                        },
+                        {
+                        "nombre": "Inspection 1",
+                        "packages": 8,
+                        "inspected": 8,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": [ ]
+                        },
+                        {
+                        "nombre": "Inspection 2",
+                        "packages": 8,
+                        "inspected": 8,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "pasillo": 5,
+                        "estante": "B",                          
+                        "archivos": []
+                        },
+                        {
+                            "nombre": "Inspection 3",
+                            "packages": 120,
+                            "inspected": 120,
+                            "dañada": 0,
+                            "faltante": 0,
+                            "archivos": []
+                        }
+                    ]
+                }
+             ]
+          },
+          {
+             "id":"AWB-000001-0003",
+             "name":"139-4437618",
+             "inspeccion" : [
+                {
+                  "nombre": "Inspection pallet",
+                  "problem": false
+                },
+                {
+                  "nombre": "Inspection 1",
+                  "fechaInicio": "31/08/1995",
+                  "lugar": "CDMX Airport",
+                  "horaInicio": "18:00",
+                  "horaFinalizacion": "19:30"
+                }
+              ],
+             "items":[
+                {
+                   "id":"ITM-000001-0003-001",
+                   "name": "SPICY MUSTARD",
                     "packages": 2,
                     "units": 24,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "place holder",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
                     "revisiones":[
                         {
                             "nombre": "Pre Inspection",
@@ -352,272 +363,32 @@
                     ]
                 },
                 {
-                    "itemName": "PWB ASSY",
-                    "packages": 6,
-                    "units": 30,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
+                   "id":"ITM-000001-0003-002",
+                   "name": "PWB ASSY",
+                   "packages": 6,
+                   "units": 30,
+                   "revisiones":[
                         {
                             "nombre": "Pre Inspection",
                             "packages": 6
                         },
                         {            
-                          "nombre": "Inspection 1",
-                          "packages": 6,
-                          "inspected": 5,
-                          "dañada": 2,
-                          "faltante": 1,
-                          "archivos": ["videoPrueba2.mp4","imagenPrueba5.jpg","imagenPrueba6.png"]
-                        },
-                        {
-                          "nombre": "Inspection 2",
-                          "packages": 6,
-                          "inspected": 5,
-                          "dañada": 2,
-                          "faltante": 1,
-                          "pasillo": 1,
-                          "estante": "H",                          
-                          "archivos": [ "videoPrueba1.mp4","imagenPrueba9.jpg","imagenPrueba3.jpg"]
-                        },
-                        {
-                            "nombre": "Inspection 3",
-                            "packages": 30,
-                            "inspected": 28,
-                            "dañada": 5,
-                            "faltante": 2,
-                            "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
-                        }
-                    ]
-                },
-                {   
-                    "itemName": "POKEMON BELT",
-                    "packages": 8,
-                    "units": 160,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
-                        {
-                            "nombre": "Pre Inspection",
-                            "packages": 8
-                        },
-                        {
-                          "nombre": "Inspection 1",
-                          "packages": 8,
-                          "inspected": 8,
-                          "dañada": 0,
-                          "faltante": 0,
-                          "archivos": [ ]
-                        },
-                        {
-                          "nombre": "Inspection 2",
-                          "packages": 8,
-                          "inspected": 8,
-                          "dañada": 0,
-                          "faltante": 0,
-                          "pasillo": 5,
-                          "estante": "B",                          
-                          "archivos": []
-                        },
-                        {
-                            "nombre": "Inspection 3",
-                            "packages": 120,
-                            "inspected": 120,
-                            "dañada": 0,
-                            "faltante": 0,
-                            "archivos": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "nombre" : "139-4437186",
-            "Shipper": {
-                "Name": "MSC",
-                "Direction": "Colonia Escandon, Del. Miguel Hidalgo, Av. Benjamin Franklin n# 216, MEXICO 11800 D.F.",
-                "AcountNo": "123456",
-                "PhoneNo": "(52)-55-5243-1523"
-            },
-            "Consignee": {
-                "Name": "Yusen",
-                "Direction": "Av.602 S/N R.F.23 Edificio D,Modulo D-304 Col. Zona Federal, Aduana AICM C.P. 15620 Venustiano Carranza, Ciudad de Mexico",
-                "AcountNo": "12345678",
-                "PhoneNo": "(52)-55-5025-3652",
-                "Email": "ylmx-customs-mx@mx.yusen-logistics.com"
-            },
-            "Comment": "General",
-            "FlyGuideId": "MX00001",
-            "OriginAirport": "EZE",
-            "DestinationAirport": "MEX",
-            "IATACode": "12345678",
-            "DeclaredValue": {
-                "Value": 192832.45,
-                "Currency": "US$"
-            },
-            "CustomsValue": {
-                "Value": 45000,
-                "Currency": "US$"
-            },
-            "Contrato": 452812,
-            "inspeccion" : [
-              {
-                "nombre": "Inspection 1",
-                "fechaInicio": "31/08/1995",
-                "lugar": "CDMX Airport",
-                "horaInicio": "18:00",
-                "horaFinalizacion": "19:30"
-              }
-            ],
-
-            "Items": [
-                {
-                    "itemName": "SPICY MUSTARD",
-                    "packages": 2,
-                    "units": 24,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "place holder",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
-                        {
-                            "nombre": "Pre Inspection",
-                            "packages": 2
-                        },
-                      {
                         "nombre": "Inspection 1",
-                        "packages": 2,
-                        "inspected":2,
-                        "dañada": 0,
-                        "faltante": 0,
-                        "archivos": []
-                      },
-                      {
+                        "packages": 6,
+                        "inspected": 5,
+                        "dañada": 2,
+                        "faltante": 1,
+                        "archivos": [ "videoPrueba1.mp4","videoPrueba2.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        },
+                        {
                         "nombre": "Inspection 2",
-                        "packages": 2,
-                        "inspected":2,
-                        "dañada": 0,
-                        "faltante": 0,
-                        "pasillo": 3,
-                        "estante": "Z",
-                        "archivos": [] 
-                      },
-                      {
-                        "nombre": "Inspection 3",
-                        "packages": 24,
-                        "inspected": 24,
-                        "dañada": 0,
-                        "faltante": 0,
-                        "archivos": []
-                      }
-                    ]
-                },
-                {
-                    "itemName": "PWB ASSY",
-                    "packages": 6,
-                    "units": 30,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
-                    },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
-                    },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
-                    },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
-                        {
-                            "nombre": "Pre Inspection",
-                            "packages": 6
-                        },
-                        {            
-                          "nombre": "Inspection 1",
-                          "packages": 6,
-                          "inspected": 5,
-                          "dañada": 2,
-                          "faltante": 1,
-                          "archivos": [ "videoPrueba1.mp4","videoPrueba2.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
-                        },
-                        {
-                          "nombre": "Inspection 2",
-                          "packages": 6,
-                          "inspected": 5,
-                          "dañada": 2,
-                          "faltante": 1,
-                          "pasillo": 1,
-                          "estante": "H",                          
-                          "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
+                        "packages": 6,
+                        "inspected": 5,
+                        "dañada": 2,
+                        "faltante": 1,
+                        "pasillo": 1,
+                        "estante": "H",                          
+                        "archivos": [ "videoPrueba1.mp4","imagenPrueba2.jpg","imagenPrueba8.png"]
                         },
                         {
                             "nombre": "Inspection 3",
@@ -629,66 +400,240 @@
                         }
                     ]
                 },
-                {   
-                    "itemName": "POKEMON BELT",
-                    "packages": 8,
-                    "units": 160,
-                    "GrossWeight": {
-                        "Value": 32,
-                        "Units": "Kg"
+                {
+                   "id":"ITM-000001-0003-003",
+                   "name": "POKEMON BELT",
+                   "packages": 8,
+                   "units": 160,
+                   "revisiones":[
+                    {
+                        "nombre": "Pre Inspection",
+                        "packages": 8
                     },
-                    "RateClass": "Q",
-                    "CommodityItemNo": "??",
-                    "ChargableWeight": {
-                        "Value": 33,
-                        "Units": "Kg"
+                    {
+                      "nombre": "Inspection 1",
+                      "packages": 8,
+                      "inspected": 8,
+                      "dañada": 0,
+                      "faltante": 0,
+                      "archivos": [ ]
                     },
-                    "Description": "Aguacates de exportacion AAA",
-                    "UnitPrice": {
-                        "Value": 6,
-                        "Units": "Kg"
+                    {
+                      "nombre": "Inspection 2",
+                      "packages": 8,
+                      "inspected": 8,
+                      "dañada": 0,
+                      "faltante": 0,
+                      "pasillo": 5,
+                      "estante": "B",                          
+                      "archivos": []
                     },
-                    "OtherCharges": {
-                        "Boxes repair at customs": {
-                            "Value": 6,
-                            "Units": "US$"
-                        }
-                    },
-                    "HandlingInfo": "Keep fresh and away from sunlight",
-                    "revisiones":[
-                        {
-                            "nombre": "Pre Inspection",
-                            "packages": 8
-                        },
-                        {
-                          "nombre": "Inspection 1",
-                          "packages": 8,
-                          "inspected": 8,
-                          "dañada": 0,
-                          "faltante": 0,
-                          "archivos": [ ]
-                        },
-                        {
-                          "nombre": "Inspection 2",
-                          "packages": 8,
-                          "inspected": 8,
-                          "dañada": 0,
-                          "faltante": 0,
-                          "pasillo": 5,
-                          "estante": "B",                          
-                          "archivos": []
-                        },
-                        {
-                            "nombre": "Inspection 3",
-                            "packages": 120,
-                            "inspected": 120,
-                            "dañada": 0,
-                            "faltante": 0,
-                            "archivos": []
-                        }
-                    ]
+                    {
+                        "nombre": "Inspection 3",
+                        "packages": 120,
+                        "inspected": 120,
+                        "dañada": 0,
+                        "faltante": 0,
+                        "archivos": []
+                    }
+                ]
                 }
-            ]
-        }
-    ]
-}
+             ]
+          }
+       ]
+    },
+    {
+       "id":"MAN-000002",
+       "name":"AM00058",
+       "dateDeparture":"4\/7\/19",
+       "guides":[
+          {
+             "id":"AWB-000002-0001",
+             "name":"guiaA",
+             "items":[
+                {
+                   "id":"ITM-000002-0001-001",
+                   "name":"itemA",
+                   "packages":12,
+                   "units":43
+                },
+                {
+                   "id":"ITM-000002-0001-002",
+                   "name":"itemB",
+                   "packages":7,
+                   "units":23
+                },
+                {
+                   "id":"ITM-000002-0001-003",
+                   "name":"itemC",
+                   "packages":5,
+                   "units":12
+                },
+                {
+                   "id":"ITM-000002-0001-004",
+                   "name":"itemD",
+                   "packages":12,
+                   "units":13
+                }
+             ]
+          },
+          {
+             "id":"AWB-000002-0002",
+             "name":"guiaB",
+             "items":[
+                {
+                   "id":"ITM-000002-0002-001",
+                   "name":"itemA",
+                   "packages":3,
+                   "units":13
+                },
+                {
+                   "id":"ITM-000002-0002-002",
+                   "name":"itemB",
+                   "packages":16,
+                   "units":53
+                },
+                {
+                   "id":"ITM-000002-0002-003",
+                   "name":"itemC",
+                   "packages":18,
+                   "units":56
+                },
+                {
+                   "id":"ITM-000002-0002-004",
+                   "name":"itemD",
+                   "packages":10,
+                   "units":42
+                }
+             ]
+          },
+          {
+             "id":"AWB-000002-0003",
+             "name":"guiaC",
+             "items":[
+                {
+                   "id":"ITM-000002-0003-001",
+                   "name":"itemA",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000002-0003-002",
+                   "name":"itemB",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000002-0003-003",
+                   "name":"itemC",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000002-0003-004",
+                   "name":"itemD",
+                   "packages":10,
+                   "units":42
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "id":"MAN-000003",
+       "name":"AM00059",
+       "dateDeparture":"3\/6\/19",
+       "guides":[
+          {
+             "id":"AWB-000003-0001",
+             "name":"guiaA",
+             "items":[
+                {
+                   "id":"ITM-000003-0001-001",
+                   "name":"itemA",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000003-0001-002",
+                   "name":"itemB",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000003-0001-003",
+                   "name":"itemC",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000003-0001-004",
+                   "name":"itemD",
+                   "packages":10,
+                   "units":42
+                }
+             ]
+          },
+          {
+             "id":"AWB-000003-0002",
+             "name":"guiaB",
+             "items":[
+                {
+                   "id":"ITM-000003-0002-001",
+                   "name":"itemA",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000003-0002-002",
+                   "name":"itemB",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000003-0002-003",
+                   "name":"itemC",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000003-0002-004",
+                   "name":"itemD",
+                   "packages":10,
+                   "units":42
+                }
+             ]
+          },
+          {
+             "id":"AWB-000003-0003",
+             "name":"guiaC",
+             "items":[
+                {
+                   "id":"ITM-000003-0003-001",
+                   "name":"itemA",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000003-0003-002",
+                   "name":"itemB",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000003-0003-003",
+                   "name":"itemC",
+                   "packages":10,
+                   "units":42
+                },
+                {
+                   "id":"ITM-000003-0003-004",
+                   "name":"itemD",
+                   "packages":10,
+                   "units":42
+                }
+             ]
+          }
+       ]
+    }
+ ]
